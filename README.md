@@ -2,8 +2,8 @@ pythonista script for displaying flashcards
 
 
 flashcard_UI.py - the enhanced version utilizing the new ui interface in pythonista version 1.5
-Flashcard_UI.pyui is the main View definiton
-Flash_Dict.pyui   is the Dictionaly View definitions
+<br>Flashcard_UI.pyui is the main View definiton
+<br>Flash_Dict.pyui   is the Dictionaly View definitions
 
 the original version using hydrogen has been removed.
 
@@ -25,9 +25,9 @@ New Features:
 ____________
 
 You can select/deselect all chapters with a sinlge button.
-Now the chapter tableview is implemented as a class allowing for the data_source to dynamically highlight chapters as an image/text 
+<br>Now the chapter tableview is implemented as a class allowing for the data_source to dynamically highlight chapters as an image/text 
 is displayed
-Now the book is in the same folder as the script.
+<br>Now the book is in the same folder as the script.
 
 The file make_asl_dir.py builds a simple test "book"
-The file get_ASL_jpgs.py will download the entire ASL heirarchy from a suitable webserver.
+<br>The file get_ASL_jpgs.py will download the entire ASL heirarchy from a suitable webserver.
