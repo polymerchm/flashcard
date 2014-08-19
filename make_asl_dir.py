@@ -11,14 +11,12 @@ font = ImageFont.truetype('ChalkboardSE-Bold', 48)
 for directory in directories:
 	os.mkdir(directory)
 	os.chdir(directory)
-	letter = ['a','b','c','d','e','f','g','h','i','j']
-	for count in range(10):
-		imagename = "%s test image %02d: %s" % (letter[count],count+1, directory)
+	for count, letter in enumerate('abcdefghij'):
+		imagename = "%s test image %02d: %s" % (letter, count+1, directory)
 		im = Image.new("RGBA", (512, 512), "white")
 		draw = ImageDraw.Draw(im)
-		draw.text((10,10), "test image %02d" % (count+1),fill=128 , font=font)
+		draw.text((10,10), "test image %02d" % (count+1), fill=128, font=font)
 		draw.text((20,60), directory, fill=128, font=font)
 		del draw
 		im.save(imagename + '.jpg' )
 	os.chdir('..')
-
