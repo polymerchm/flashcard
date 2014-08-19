@@ -27,7 +27,7 @@ ____________
 o - You can select/deselect all chapters with a sinlge button.
 <br>o - Now the chapter tableview is implemented as a class allowing for the data_source to dynamically 
 highlight chapters as an image/text is displayed
-<br>0 - Now the book is in the same folder as the script.
+<br>o - Now the book is in the same folder as the script.
 
 The file make_asl_dir.py builds a simple test "book"
 <br>The file get_ASL_jpgs.py will download the entire ASL heirarchy from a suitable webserver.
